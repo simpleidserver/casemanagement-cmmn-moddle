@@ -1,0 +1,31 @@
+{
+  "name": "CaseManagement",
+  "uri": "https://github.com/simpleidserver/CaseManagement",
+  "prefix": "case",
+  "xml": {
+    "tagAlias": "lowerCase"
+  },
+  "associations": [],
+  "types": [
+    {
+      "name": "FormSupported",
+      "isAbstract": true,
+      "extends": [
+        "cmmn:HumanTask"
+      ],
+      "properties": [
+        {
+          "name": "formKey",
+          "isAttr": true,
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "name": "Assignable",
+      "extends": [ "cmmn:HumanTask" ],
+      "properties": [ ]
+    }
+  ],
+  "emumerations": [ ]
+}
