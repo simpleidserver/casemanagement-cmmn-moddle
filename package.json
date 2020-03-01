@@ -1,6 +1,6 @@
 {
   "name": "casemanagement-cmmn-moddle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CaseManagement moddle extensions for CMMN 1.1",
   "scripts": {
     "all": "run-s lint test",
